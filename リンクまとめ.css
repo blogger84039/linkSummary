@@ -1,4 +1,4 @@
-html{
+html {
     margin: 0px;
 }
 
@@ -6,8 +6,13 @@ body {
     margin: 0px;
 }
 
+.header {
+    width: auto;
+    height: 100px;
+    background-color: #2ca9e1;
+}
+
 h1 {
-    background-color: aqua;
     text-align: center;
     margin: 0px;
     padding: 20px;
@@ -18,26 +23,44 @@ h1 {
     font-size: 60px;
 }
 
-.hyou{
+.hyou {
     column-gap: 15px;
 }
 
-.hyou1{
+.hyou1 {
     margin: 10px auto;
 }
 
 .form {
-	margin: auto;
-	}
+    margin: auto;
+}
 
 #form {
-	width: 640px;
-	margin: 0 auto;
-	}
+    width: 640px;
+    margin: 0 auto;
+}
 
 .senden {
-	color: black;
-	font-size: 15px;
-	margin: 10px auto;
-	text-align: center;
+    color: black;
+    font-size: 15px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+#footer {
+    width: auto;
+    height: 80px;
+    background-color: #2ca9e1;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#footer-list {
+    list-style: none;
+    margin-right: 5px;
+}
+
+#footer-link {
+    color: black;
 }
