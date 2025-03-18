@@ -57,8 +57,6 @@ a {
     height: 80px;
     background-color: #6495ed;
     margin-top: 5px;
-    display: flex;
-    justify-content: flex-end;
 }
 
 #footer-list {
